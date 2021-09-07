@@ -1,1 +1,1 @@
-# GH-Hall-Of-Fame
+# GH Hall Of Fame
