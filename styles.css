@@ -1062,6 +1062,14 @@ body::-webkit-scrollbar-thumb {
 	font-weight: 600;
 }
 .carousel-item img{
+	border: 5px solid grey !important;
+	border-radius: 4px;
+	filter: grayscale(1);
+
+}
+.active img{
 	border: 5px solid #13f7d2 !important;
 	border-radius: 4px;
+	filter: none;
 }
+
