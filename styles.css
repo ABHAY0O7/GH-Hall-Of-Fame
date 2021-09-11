@@ -1070,6 +1070,7 @@ body::-webkit-scrollbar-thumb {
 .active img{
 	border: 5px solid #13f7d2 !important;
 	border-radius: 4px;
+	box-shadow:  2px -2px 41px -5px #13f7d2;
 	filter: none;
 }
 
