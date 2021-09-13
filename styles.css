@@ -1044,10 +1044,9 @@ body::-webkit-scrollbar-thumb {
 }
 .carousel {
 	height: 299.66px !important ;
-}
-.carousel {
 	width: 218.28px !important;
 }
+
 .carousel-item {
 	height: fit-content !important;
 	width: fit-content !important;
@@ -1064,6 +1063,7 @@ body::-webkit-scrollbar-thumb {
 	border: 5px solid grey !important;
 	border-radius: 4px;
 	filter: grayscale(1);
+	margin: 0 3.7vw;
 }
 .active img {
 	border: 5px solid #13f7d2 !important;
