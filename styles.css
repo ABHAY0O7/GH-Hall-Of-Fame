@@ -1036,15 +1036,15 @@ body::-webkit-scrollbar-thumb {
 .carousel-container .carousel {
 	padding: 50px !important;
 	margin: auto;
-	width: 80%;
+	width: 80vw;
 }
 .carousel-container {
 	margin-top: 20vh !important;
 	margin-bottom: 10vh;
 }
 .carousel {
-	height: 299.66px !important ;
-	width: 218.28px !important;
+	height: 18.729rem !important ;
+	width: 13.643rem !important;
 }
 
 .carousel-item {
@@ -1070,4 +1070,8 @@ body::-webkit-scrollbar-thumb {
 	border-radius: 4px;
 	box-shadow: 2px -2px 41px -5px #13f7d2;
 	filter: none;
+}
+nav{
+	box-shadow: none !important;
+	height: max-content !important;
 }
