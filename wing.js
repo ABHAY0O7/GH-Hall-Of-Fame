@@ -107,6 +107,7 @@ $('.whiteToblackBg').attr('style', 'background-color: #252628 ')
 
 $(document).ready(function() {
     //Preloader
+    
     preloaderFadeOutTime = 500;
     function hidePreloader() {
     var preloader = $('.b1');
