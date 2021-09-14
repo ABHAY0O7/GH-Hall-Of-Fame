@@ -20,4 +20,4 @@ setTimeout(() => {
     $(document).ready(function () {
         $(".carousel").carousel();
     });
-}, 500);
+}, 300);
