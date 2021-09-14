@@ -1115,3 +1115,17 @@ nav{
 	line-height: 60px;
 	width: max-content;
 }
+.icons{
+	text-align: center !important;
+	align-items: center !important;
+	align-self: center !important;
+	margin-left: 65px!important;
+}
+.overall-icon{
+	font-size: 1rem !important;
+	margin-right: 10px !important;
+	border: 2px solid #9AA6A5 !important; 
+	border-radius: 4px !important;
+	align-items: center !important;
+	text-align: center !important;
+}
