@@ -321,6 +321,7 @@ body::-webkit-scrollbar-thumb {
 .announcements {
 	padding-top: 60px;
 	text-align: center;
+	overflow: hidden;
 }
 
 .announcements p {
@@ -543,7 +544,7 @@ body::-webkit-scrollbar-thumb {
 	font-family: "Montserrat", sans-serif;
 	text-align: center;
 	padding-left: 40px;
-	padding-top: 60px;
+	/* padding-top: 60px; */
 	height: 330px;
 }
 
@@ -877,7 +878,7 @@ body::-webkit-scrollbar-thumb {
     } */
 
 	.footer {
-		padding-top: -20px;
+		/* padding-top: -20px; */
 		height: 420px;
 		padding-right: 0px;
 		padding-left: 20px;
