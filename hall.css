@@ -536,18 +536,6 @@ body::-webkit-scrollbar-thumb {
 	float: right;
 }
 
-.footer {
-	display: inline-block;
-	background-color: #191a1b;
-	width: 100%;
-	margin: 0 auto;
-	font-family: "Montserrat", sans-serif;
-	text-align: center;
-	padding-left: 40px;
-	/* padding-top: 60px; */
-	height: 330px;
-}
-
 .blogs h2 {
 	color: #ffffff;
 	font-weight: 700 !important;
@@ -584,6 +572,20 @@ body::-webkit-scrollbar-thumb {
 .contacts .icons {
 	position: relative;
 	top: 29px;
+}
+
+.footer {
+	display: block;
+	background-color: #1d1d1f;
+	width: 100%;
+	margin: 0 auto;
+	font-family: "Montserrat", sans-serif;
+	text-align: center;
+	/* padding-left: 40px;
+    padding-top: 60px; */
+	justify-content: center;
+	align-items: center;
+	height: 330px;
 }
 
 .contacts a {
@@ -684,6 +686,14 @@ body::-webkit-scrollbar-thumb {
 }
 
 @media screen and (max-width: 480px) {
+	.contacts {
+		display: flex;
+		align-items: center;
+		flex-direction: column;
+	}
+	.icons {
+		width: 145%;
+	}
 	nav {
 		margin-top: 0px !important;
 	}
@@ -877,14 +887,6 @@ body::-webkit-scrollbar-thumb {
         background: linear-gradient(to bottom, #A823BD 50%, #27292b 50%) !important;
     } */
 
-	.footer {
-		/* padding-top: -20px; */
-		height: 420px;
-		padding-right: 0px;
-		padding-left: 20px;
-		text-align: center;
-	}
-
 	.blogs {
 		transform: scale(0.7);
 	}
@@ -1072,7 +1074,7 @@ body::-webkit-scrollbar-thumb {
 	box-shadow: 2px -2px 41px -5px #13f7d2;
 	filter: none;
 }
-nav{
+nav {
 	box-shadow: none !important;
 	height: max-content !important;
 }
