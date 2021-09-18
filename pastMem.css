@@ -1082,22 +1082,18 @@ nav{
     padding-top: 0px !important;
     margin-top: 10% !important;
 }
-.announcements .whiteToBlack{
 
-    width: fit-content !important;
-    margin: auto !important;
-    padding-left: 10px;
-    padding-right: 10px;
-    margin-top: -40px !important;
-    background-color: #252628 !important;
-}
 .wing{
-    margin-top: 500px !important;
-	padding: 10%;
+    margin: auto;
+	height: max-content !important;
+	margin-top: 3%;
+	padding: 1%;
+	margin-bottom: 10%;
 }
 
 .headingg-wrapper{
 	width: 80vw;
+	margin: auto;
 	height: 60px;
 	background-color: #13f7d2;
 	align-items: center;
@@ -1105,7 +1101,6 @@ nav{
 }
 .wing .headingg{
 
-	/* transform: scaleY(0.86); */
 	margin: auto;
     background-color: #13f7d2;
     font-weight: bold;
@@ -1128,4 +1123,7 @@ nav{
 	border-radius: 4px !important;
 	align-items: center !important;
 	text-align: center !important;
+}
+.carousel {
+	text-align: center;
 }
