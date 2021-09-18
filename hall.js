@@ -29,7 +29,7 @@ async function getData() {
         $('.carousel').carousel('next');
         setTimeout(autoplay,2000);
     }
-    }, 550);
+    }, 650);
 
 
 }
