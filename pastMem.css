@@ -1094,6 +1094,7 @@ nav {
 
 .headingg-wrapper {
 	width: 80vw;
+	margin: auto;
 	margin-bottom: 3rem;
 	height: 60px;
 	background-color: #13f7d2;
