@@ -535,7 +535,7 @@ body::-webkit-scrollbar-thumb {
 	float: right;
 }
 
-.footer {
+/* .footer {
 	display: inline-block;
 	background-color: #191a1b;
 	width: 100%;
@@ -545,7 +545,7 @@ body::-webkit-scrollbar-thumb {
 	padding-left: 40px;
 	padding-top: 60px;
 	height: 330px;
-}
+} */
 
 .blogs h2 {
 	color: #ffffff;
@@ -876,13 +876,13 @@ body::-webkit-scrollbar-thumb {
         background: linear-gradient(to bottom, #A823BD 50%, #27292b 50%) !important;
     } */
 
-	.footer {
+	/* .footer {
 		padding-top: -20px;
 		height: 420px;
 		padding-right: 0px;
 		padding-left: 20px;
 		text-align: center;
-	}
+	} */
 
 	.blogs {
 		transform: scale(0.7);
@@ -1050,6 +1050,7 @@ body::-webkit-scrollbar-thumb {
 .carousel-item {
 	height: fit-content !important;
 	width: fit-content !important;
+	/* padding: 0.5rem; */
 }
 .carousel-item h5 {
 	color: white;
@@ -1093,27 +1094,31 @@ nav {
 
 .headingg-wrapper {
 	width: 80vw;
-	margin: auto;
+	margin-bottom: 3rem;
 	height: 60px;
 	background-color: #13f7d2;
 	align-items: center;
 	border-radius: 4px;
+	text-align: center;
 }
 .wing .headingg {
 	margin: auto;
 	background-color: #13f7d2;
 	font-weight: bold;
-	color: #000;
+	color: black;
 	padding: 0px !important;
 	text-shadow: 1px 1px #ffffff;
 	line-height: 60px;
-	width: max-content;
+	/* width: max-content; */
 }
 .icons {
+	display: flex;
+    align-items: center !important;
+    justify-content: center;
 	text-align: center !important;
 	align-items: center !important;
 	align-self: center !important;
-	margin-left: 65px !important;
+	/* margin-left: 65px !important; */
 }
 .overall-icon {
 	font-size: 1rem !important;
@@ -1147,4 +1152,39 @@ nav {
 	justify-content: center;
 	align-items: center;
 	height: 330px;
+}
+
+@media screen and (max-width: 720px) {
+	
+	.headingg-wrapper {
+		width: 100vw;
+		/* margin: auto; */
+		height: 60px !important;
+		/* background-color: #13f7d2; */
+		/* align-items: center; */
+		border-radius: 4px !important;
+	}
+	.wing .headingg {
+		margin: auto;
+		background-color: #13f7d2;
+		font-weight: bold;
+		color: black;
+		/* padding: 0px !important; */
+		text-shadow: 1px 1px #ffffff;
+		line-height: 60px;
+		/* width: max-content;*/
+		text-align: center;
+	}
+	.wing {
+		color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    /* height: 23rem !important;*/
+	}
+	.carousel-container {
+		height: 23rem;
+	}
 }
