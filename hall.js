@@ -13,8 +13,8 @@ async function getData() {
     rows.pop();
     const loop = rows.forEach((row, index) => {
         const elt = row.split(',');
-        var element = " <a class=\"carousel-item-image\" href=\"alumniinfo.html?key=" + index + "\"><img src ='assets/" + elt[3] + "' height=300px width=200px/></a> <h5>" +
-            elt[0] + "</h5> <h6>" + elt[2] + " Wing" + " '" + elt[1].substring(2) + "</h6>";
+        var element = " <a class=\"carousel-item-image\" href=\"alumniinfo.html?key=" + index + "\"><img src ='assets/" + elt[3] + "' height=300px width=250px/></a> <h5>" +
+            elt[0] + "</h5> <h6>" + elt[2] + "</h6>";
         var elem = document.createElement("div");
         elem.className = "carousel-item";
         elem.innerHTML = element;
