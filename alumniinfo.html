@@ -28,7 +28,7 @@
           <!-- Collect the nav links, forms, and other content for toggling -->
           <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav navbar-right">
-              <li><a href="./index.php">Home</a></li>
+              <li><a href="./index.html">Home</a></li>
               <li><a href="#footer">Contacts</a></li>
               <li><a href="./geekhaven/login.php">Login</a></li>
             </ul>
@@ -48,7 +48,7 @@
             <div class="col-lg-6 contacts mem-container">
                 <div class="image-mem-container">
                     <img src="" class="image-mem"/>
-                    <div class="name-wing">
+                    <div class="name-wing" style="text-align: center;">
                         <p class="name-mem"></p>
                         <p class="wing-mem"></p>
                     </div>
@@ -69,8 +69,8 @@
                         </div> 
 
                 </div>
-                <p class="description-mem"></p>
-                    <p class="roll-mem"><span class="texta">Roll Number:</span></p>
+                <p class="description-mem" style="margin :16.8%;"></p>
+                    <p class="roll-mem" style="font-size: xx-large;"><span class="texta">Roll Number:</span></p>
                     <img src="./images/cross.png" class="cross-image">
                     </div>
             </div>               
@@ -121,7 +121,7 @@
             const rows = await data.split('\n').slice(1);
             const usr = await rows[token].split(',');
             $(".name-mem").html(usr[0]);
-            $(".wing-mem").html(usr[2] + " Wing" + " '" + usr[1].substring(2));
+            $(".wing-mem").html(usr[2].split('@')[1]);
             $(".description-mem").html(usr[4]);
             $(".image-mem").attr("src", "assets/" + usr[3]);
             $(".git").attr("href",usr[5]);
