@@ -1,7 +1,7 @@
 body{
     margin: 0 auto;
     padding: 0px;
-    width: 99vw;f
+    width: 99vw;
     height: 100vh;
     font-family: 'Montserrat', sans-serif;
     background-color: #1D1E20 !important;
@@ -605,7 +605,6 @@ nav{
     margin:0 10px;
 }
 
-
 .contacts h2{
     color: #FFFFFF;
     font-weight: 700 !important;
@@ -1190,6 +1189,11 @@ nav{
     margin-top: 50px;
     color: white;
     text-align: left;
+}
+#prj_url{
+    text-decoration: underline;
+    /* text-decoration: solid; */
+    border: none;
 }
 .roll-mem{
     font-family: 'Montserrat', sans-serif;
